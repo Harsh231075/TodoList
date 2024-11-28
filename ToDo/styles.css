@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin-top: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-image: url("./photo-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 500px;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 20);
+
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 20);
+  padding: 8px;
+}
+
+.todo-form input,
+button {
+
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+.todo-form input {
+  height: 30px;
+  outline: none;
+
+
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.editButton {
+  color: white;
+  background-color: green;
+}
+
+.editButton:hover {
+  color: white;
+  background-color: rgba(0, 128, 0, 0.475);
+}
+
+.toggleCompletion {
+  color: white;
+  background-color: yellowgreen;
+}
+
+.deleteButton {
+  background-color: white;
+  background-color: #cc0000;
+}
+
+.deleteButton:hover {
+  background-color: white;
+  background-color: #cc0000b0;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list li span {
+  font-size: 16px;
+}
+
+.todo-list li button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-list li button:hover {
+  background-color: #cc0000;
+}
+
+
+#reportContainer {
+  display: none;
+
+}
+
+
+.task-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.list {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 20);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task-text {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+.Report {
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 20);
+  padding: 20px;
+  border-radius: 5px;
+  max-height: 500px;
+  color: white;
+}
+
+.head {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.head,
+input {
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  gap: 4px;
+}

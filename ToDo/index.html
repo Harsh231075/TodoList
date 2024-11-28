@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App with Report</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Todo App</h1>
+
+
+    <div class="todo-form">
+      <input type="text" id="taskInput" placeholder="Enter task" />
+      <input type="date" id="dateInput" />
+      <button id="addTaskButton">Add Task</button>
+    </div>
+
+
+    <ol id="todoList" class="Items"></ol>
+  </div>
+
+  <div class="Report">
+    <h1>Report</h1>
+    <div class="head">
+      <input type="date" id="startDate" />
+      <input type="date" id="endDate" />
+      <button id="generateReportButton"> Report</button>
+    </div>
+    <div id="reportContainer" style="display:none;"></div>
+  </div>
+
+
+
+
+
+  <script src="newScript.js"></script>
+</body>
+
+</html>
